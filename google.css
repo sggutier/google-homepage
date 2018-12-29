@@ -3,6 +3,10 @@ html{
     font-family: arial, sans-serif;
 }
 
+a {    
+    text-decoration: none;
+}
+
 body{
     min-height:100%;
     padding:0;
@@ -38,13 +42,18 @@ footer{
     border-radius: 2px;
 }
 
-.google-apps-button {
+#google-apps-button {
     background-image: url("res/buttons_pic.png");
     box-sizing: border-box;
     background-position: -132px -38px;
     height: 30px;
     width: 30px;
     margin-right: 8px;
+    opacity: 0.55;
+}
+
+#google-apps-button:hover {
+    opacity: 0.9;
 }
 
 .services-list li {
@@ -59,7 +68,6 @@ footer{
     font-size: 13px;
     opacity: 0.85;
     color: rgba(0, 0, 0, 0.85);
-    text-decoration: none;
 }
 
 .services-list a:hover {
@@ -79,6 +87,10 @@ label{
 header{
     background:#C7DD8B;
     height:50px;
+}
+
+main {
+    align-items: center;
 }
 
 footer{
