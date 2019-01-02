@@ -19,7 +19,6 @@ header {
     position: fixed;
     height:50px;
     width:100%;
-    background: cyan;
 }
 
 main {
@@ -80,7 +79,7 @@ footer{
     color: rgba(0, 0, 0, 0.85);
 }
 
-.services-list a:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -102,7 +101,7 @@ label{
     transform: translate(-50%, -50%);
 }
 
-footer{
+footer {
     background: #f2f2f2;
     color:rgba(0,0,0,.54);
 }
@@ -172,4 +171,26 @@ footer{
 }
 
 .logo {
+}
+
+.footer-link {
+    opacity: 0.85;
+    color: rgba(0, 0, 0, 0.85);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rightie {
+    float: right;
+    margin: auto 5px;
+    border: solid;
+}
+
+.linea {
+    margin: 0px 0px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px 0px 0px 0px;
+    border-radius: 0px;
+    height: 39px;
 }
