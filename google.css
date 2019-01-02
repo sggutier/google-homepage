@@ -174,22 +174,29 @@ footer {
 }
 
 .footer-link {
-    opacity: 0.85;
-    color: rgba(0, 0, 0, 0.85);
+    color: rgba(0, 0, 0, 0.54);
     margin-left: 10px;
     margin-right: 10px;
 }
 
+.rightie , .leftie {
+    margin: auto 15px;
+    vertical-align:middle;
+    line-height: 39px;
+}
+
 .rightie {
     float: right;
-    margin: auto 5px;
-    border: solid;
+}
+
+.leftie {
+    float: left;
 }
 
 .linea {
     margin: 0px 0px;
     border-style: solid;
-    border-color: #cccccc;
+    border-color: #e4e4e4;
     border-width: 1px 0px 0px 0px;
     border-radius: 0px;
     height: 39px;
